@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from "./header"
 import ContentWrapper from './content/contentWrapper';
 import Footer from "./footer"
+
 // raw js data not called as component
 import dummyData from '../../static/assets/dummyData';
 
