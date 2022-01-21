@@ -1,6 +1,7 @@
 import React from "react";
 import DayOfWeek from "./dayOfWeek"
 
+import CalenderBox from "./calenderBox";
 
 export default function contentWrapper(props) {
     return (
@@ -12,6 +13,7 @@ export default function contentWrapper(props) {
             < DayOfWeek day="Thursday" />
             < DayOfWeek day="Friday" />
             < DayOfWeek day="Saturday" />
+            < CalenderBox date="1" />
         </div>
     )
 }
